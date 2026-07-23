@@ -1,17 +1,11 @@
-```markdown
 # 🌐 Raditya's Portfolio
+  Personal portfolio website developed using HTML and Tailwind CSS framework to showcase projects and web development skills.
 
-Personal portfolio website developed using HTML and Tailwind CSS framework to showcase projects and web development skills.
-
----
 
 ## 🛠️ Teknologi yang Digunakan
-
-* **HTML5** - Struktur konten web
-* **Tailwind CSS v4** - Styling dan desain responsif
-* **Git & GitHub** - Version control dan hosting
-
----
+  * **HTML5** - Struktur konten web
+  * **Tailwind CSS v4** - Styling dan desain responsif
+  * **Git & GitHub** - Version control dan hosting
 
 ## 📂 Struktur Folder
 
@@ -27,8 +21,6 @@ Personal portfolio website developed using HTML and Tailwind CSS framework to sh
 └── README.md           # Dokumentasi proyek
 
 ```
-
----
 
 ## 💻 Cara Menjalankan di Lokal
 
@@ -69,14 +61,5 @@ npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
 ### 4. Buka di Browser
 
 Buka file `index.html` langsung di browser atau gunakan ekstensi **Live Server** di VS Code.
-
-```
-
----
-
-### Perbaikan yang Dilakukan:
-1. **Penomoran Rapi:** Urutan nomor pada langkah *Cara Menjalankan di Lokal* dipatenkan menjadi 1, 2, 3, 4 (sebelumnya melompat dari 1 ke 3).
-2. **Duplikasi Link Dihapus:** Perintah `git clone` yang double/ganda sudah dibersihkan.
-3. **Penyatuan Blok Kode (`Code Blocks`):** Semua perintah terminal (`cd`, `npm install`, `npx @tailwindcss...`) dibungkus rapi dalam blok kode ` ```bash ` agar muncul dalam kotak terpisah yang mudah dibaca di GitHub.
 
 ```

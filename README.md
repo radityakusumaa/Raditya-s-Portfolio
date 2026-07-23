@@ -61,5 +61,3 @@ npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
 ### 4. Buka di Browser
 
 Buka file `index.html` langsung di browser atau gunakan ekstensi **Live Server** di VS Code.
-
-```

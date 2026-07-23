@@ -1,63 +1,65 @@
-# 🌐 Raditya's Portfolio
+# Raditya's Portfolio
   Personal portfolio website developed using HTML and Tailwind CSS framework to showcase projects and web development skills.
 
 
-## 🛠️ Teknologi yang Digunakan
-  * **HTML5** - Struktur konten web
-  * **Tailwind CSS v4** - Styling dan desain responsif
-  * **Git & GitHub** - Version control dan hosting
+# Built With
+   This project was built using these technologies. 
+  * **HTML5** - Web content structure
+  * **Tailwind CSS v4** - Responsive styling and design
+  * **Git & GitHub** - Version control and hosting
 
-## 📂 Struktur Folder
+# Folders Structure
 
 ```text
-├── gambar/             # Aset gambar dan media proyek
+├── gambar/             # Image assets
 ├── src/
-│   ├── input.css       # File CSS utama (Tailwind configuration & directives)
-│   └── output.css      # Hasil kompilasi CSS yang dipanggil di HTML
-├── index.html          # Halaman utama portofolio
+│   ├── input.css       # Main CSS file (Tailwind configuration & directives)
+│   └── output.css      # Compiled CSS output called in HTML
+├── index.html          # Portfolio page
 ├── package.json        # Dependensi proyek (Node.js & Tailwind CLI)
-├── package-lock.json   # Pengunci versi dependensi
-├── .gitignore          # Daftar file/folder yang diabaikan Git
-└── README.md           # Dokumentasi proyek
+├── package-lock.json   # Dependency version lock
+├── .gitignore          # List of files/folders ignored by Git
+├── LICENSE             # License by Git
+└── README.md           # Project documentation
 
 ```
 
-## 💻 Cara Menjalankan di Lokal
+# Installation and Setup Instructions
 
 ### 1. Clone Repository
 
-Buka terminal di VS Code, lalu jalankan perintah:
+Open a terminal in VS Code, then run the command:
 
 ```bash
 git clone https://github.com/radityakusumaa/Raditya-s-Portfolio.git
 
 ```
 
-Masuk ke folder proyek yang baru di-clone:
+Go to the newly cloned project folder:
 
 ```bash
 cd Raditya-s-Portfolio
 
 ```
 
-### 2. Install Dependensi
+### 2. Install Dependencies
 
-Pastikan Node.js sudah terinstall di komputermu, lalu jalankan perintah:
+Make sure Node.js is installed on your computer, then run the command:
 
 ```bash
 npm install
 
 ```
 
-### 3. Jalankan Tailwind CSS Watcher
+### 3. Run Tailwind CSS Watcher
 
-Untuk mengompilasi CSS secara otomatis saat ada perubahan pada file HTML atau CSS:
+To automatically compile CSS when there are changes to HTML or CSS files:
 
 ```bash
 npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
 
 ```
 
-### 4. Buka di Browser
+### 4. Open in Browser
 
-Buka file `index.html` langsung di browser atau gunakan ekstensi **Live Server** di VS Code.
+Open the `index.html` file directly in the browser or use the **Live Server** extension in VS Code.
